@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="bg-white shadow-md w-full z-10 top-0 left-0">
+      <div class="max-w-7xl mx-auto px-5 sm:px-16 lg:px-18">
+        <div class="flex justify-between h-16">
+          <!-- Logo -->
+          <div class="flex-shrink-0 flex items-center">
+            <a href="#" class="text-2xl font-bold text-blue-600">Logo</a>
+          </div>
+
+          <!-- Desktop Menu -->
+          <div class="hidden md:flex items-center space-x-6">
+            <a href="#" class="text-gray-700 hover:text-blue-600">Home</a>
+            <a href="#" class="text-gray-700 hover:text-blue-600">Portfolio</a>
+            <a href="#" class="text-gray-700 hover:text-blue-600">About Me</a>
+            <a href="#" class="text-gray-700 hover:text-blue-600"
+              >Testimonials</a
+            >
+            <a
+              href="#"
+              class="ml-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+              >Contact Me</a
+            >
+          </div>
+
+          <!-- Mobile Menu Button -->
+          <div class="md:hidden flex items-center">
+            <button id="menu-btn" class="text-gray-700 focus:outline-none">
+              <svg
+                class="h-6 w-6"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M4 6h16M4 12h16M4 18h16"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div
+        id="mobile-menu"
+        class="hidden md:hidden px-4 pt-2 pb-4 space-y-2 bg-white shadow-md"
+      >
+        <a href="#" class="block text-gray-700 hover:text-blue-600">Home</a>
+        <a href="#" class="block text-gray-700 hover:text-blue-600"
+          >Portfolio</a
+        >
+        <a href="#" class="block text-gray-700 hover:text-blue-600">About Me</a>
+        <a href="#" class="block text-gray-700 hover:text-blue-600"
+          >Testimonials</a
+        >
+        <a
+          href="#"
+          class="block mt-2 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+          >Contact Me</a
+        >
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- portfiolio section start -->
+    <section class="bg-[#F5FCFF]">
+      <div
+        class="grid justify-center md:grid-cols-2 md:justify-between max-w-7xl mx-auto px-5 sm:px-16 lg:px-18  items-center py-10"
+      >
+        <div>
+          <p class="text-[14px] text-[#1C1E53] md:text-[18px]">
+            Hey, I am Krish
+          </p>
+          <h1
+            class="font-bold text-[#1C1E53] text-[18.64px] md:text-[40px] md:text-base/12 py-3"
+          >
+            I Create <span class="text-[#5E3BEE]">product design</span> <br />
+            and brand experience
+          </h1>
+          <p class="text-[14px] md:text-[24px] text-[#1C1E53] py-3">
+            Lorem ipsum dolor, sit amet<br />
+            adipisicing elit. Doloribus, rerum.
+          </p>
+          <button
+            class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+          >
+            Get Touch
+          </button>
+        </div>
+        <!-- image div -->
+        <div class="w-[250px] md:w-[450px]">
+          <img src="Group 11 1.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- portfiolio section end -->
+
+    <!-- cart section start -->
+    <section>
+      <div class="max-w-7xl mx-auto px-5 sm:px-16 lg:px-18 items-center py-10">
+        <p class="font-bold text-[#282938]">My Skills</p>
+        <h1 class="text-4xl md:text-[40px] font-bold py-2 text-[#282938]">
+          My Expertise
+        </h1>
+        <div
+          class="grid items-center justify-center md:grid-cols-2 lg:grid-cols-4 gap-4 py-5"
+        >
+          <img class="w-[400px]" src="images/Content.png" alt="" />
+          <img src="images/Content (1).png" alt="" />
+          <img src="images/Content (2).png" alt="" />
+          <img src="images/Content (3).png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- cart section end -->
+    <script src="script .js"></script>
+  </body>
+</html>
